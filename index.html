@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Gupta - Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background-color: radial-gradient(red green yellow blue) ;
+            color: #1f2937;
+            line-height: 1.6;
+            height: 100vh;
+        }
+
+        .resume {
+            max-width: 850px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 45px 55px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+            position: sticky;
+            top: 0;
+            background: #ffffff;
+            z-index: 100;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            color: #111827;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            font-size: 18px;
+            color: #2563eb;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+
+        .tagline {
+            margin-top: 12px;
+            font-size: 15px;
+            color: #4b5563;
+        }
+
+        .contact {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 25px;
+            position: relative;
+            /* top: 220px; */
+        }
+
+        .section-title {
+            font-size: 20px;
+            color: #2563eb;
+            border-left: 5px solid #2563eb;
+            padding-left: 10px;
+            margin-bottom: 12px;
+        }
+
+        .section p {
+            font-size: 15px;
+            color: #374151;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #eff6ff;
+            color: #1d4ed8;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #bfdbfe;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 15px;
+        }
+
+        .experience-item h3 {
+            font-size: 17px;
+            color: #111827;
+        }
+
+        .experience-item p {
+            margin-top: 5px;
+        }
+
+        /* Education */
+        .education-item h3 {
+            font-size: 17px;
+            color: #111827;
+        }
+
+        /* Career Objective */
+        .objective {
+            background: #f8fafc;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #e5e7eb;
+            color: #6b7280;
+            font-size: 13px;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .resume {
+                margin: 15px;
+                padding: 30px 22px;
+            }
+
+            .header h1 {
+                font-size: 32px;
+            }
+
+            .contact {
+                flex-direction: column;
+                gap: 6px;
+            }
+        }
+
+        /* Print */
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                margin: 0;
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>Dhruv Gupta</h1>
+            <h2>Frontend Developer | Tech Enthusiast</h2>
+
+            <p class="tagline">
+                Passionate about technology, problem solving and building modern web experiences.
+            </p>
+
+            <div class="contact">
+                <a href="https://linkedin.com/in/your-linkedin-id" target="_blank">
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/your-github-id" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://instagram.com/your-instagram-id" target="_blank">
+                    Instagram
+                </a>
+            </div>
+        </header>
+
+
+        <!-- Career Objective -->
+        <section class="section">
+            <h2 class="section-title">Career Objective</h2>
+
+            <div class="objective">
+                <p>
+                    A motivated and enthusiastic tech learner seeking opportunities
+                    in society to apply my technical skills, learn from real-world
+                    experiences, collaborate with others, and contribute to meaningful
+                    projects. I am passionate about technology and continuously
+                    improving my development and problem-solving abilities.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Technical Skills -->
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">Tailwind CSS</span>
+                <span class="skill">Data Structures & Algorithms</span>
+                <span class="skill">Arrays</span>
+            </div>
+        </section>
+
+
+        <!-- Experience -->
+        <section class="section">
+            <h2 class="section-title">Experience & Learning</h2>
+
+            <div class="experience-item">
+                <h3>Frontend Development</h3>
+                <p>
+                    Hands-on learning and experience with HTML, CSS and Tailwind CSS,
+                    with a focus on creating clean, responsive and user-friendly
+                    web interfaces.
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Data Structures & Algorithms</h3>
+                <p>
+                    Currently developing problem-solving skills through Data
+                    Structures and Algorithms, with knowledge of arrays and
+                    foundational problem-solving concepts.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- About Me -->
+        <section class="section">
+            <h2 class="section-title">About Me</h2>
+
+            <p>
+                I am a tech enthusiast who enjoys exploring new technologies,
+                improving my coding skills and understanding how things work.
+                I am eager to learn, take on new challenges and work with a team
+                where I can grow while contributing to the community.
+            </p>
+        </section>
+
+
+        <!-- Strengths -->
+        <section class="section">
+            <h2 class="section-title">Strengths</h2>
+
+            <div class="skills">
+                <span class="skill">Quick Learner</span>
+                <span class="skill">Problem Solving</span>
+                <span class="skill">Teamwork</span>
+                <span class="skill">Curious Mind</span>
+                <span class="skill">Tech Enthusiast</span>
+   
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            © 2026 Dhruv Gupta | Resume
+        </footer>
+
+    </div>
+
+</body>
+</html>
